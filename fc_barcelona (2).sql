@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 07-Jun-2024 às 11:22
+-- Tempo de geração: 11-Jun-2024 às 11:48
 -- Versão do servidor: 10.4.32-MariaDB
 -- versão do PHP: 8.2.12
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `fc barcelona`
+-- Banco de dados: `fc_barcelona`
 --
 
 -- --------------------------------------------------------
@@ -41,32 +41,32 @@ CREATE TABLE `equipa` (
 --
 
 INSERT INTO `equipa` (`ID`, `Nome`, `Idade`, `Nª`, `Posicao`, `Nacionalidade`) VALUES
-(1, 'Marc-André ter Stegen', 0, 1, 'GK', 'German'),
-(2, 'Iñaki Peña', 0, 13, 'GK', 'Spanish'),
-(3, 'Ander Astralaga', 0, 26, 'GK', 'Spanish'),
-(4, 'Ronald Araújo', 0, 4, 'DC', 'Uruguayan'),
-(5, 'Jules Koundé', 0, 23, 'DC', 'French'),
-(6, 'Andreas Christensen', 0, 15, 'DC', 'Danish'),
-(7, 'Pau Cubarsí', 0, 33, 'DC', 'Spanish'),
-(8, 'Iñigo Martínez', 0, 5, 'DC', 'Spanish'),
-(9, 'Alejandro Balde', 0, 3, 'LE', 'Spanish'),
-(10, 'Marcos Alonso', 0, 17, 'LE', 'Spanish'),
-(11, 'João Cancelo', 0, 2, 'LD', 'Portuguese'),
-(12, 'Héctor Fort', 0, 39, 'LD', 'Spanish'),
-(13, 'Oriol Romeu', 0, 18, 'MDC', 'Spanish'),
-(14, 'Gavi', 0, 6, 'MC', 'Spanish'),
-(15, 'Pedri', 0, 8, 'MC', 'Spanish'),
-(16, 'Frenkie de Jong', 0, 21, 'MC', 'Dutch'),
-(17, 'Sergi Roberto', 0, 20, 'MC', 'Spanish'),
-(18, 'Ilkay Gündogan', 0, 22, 'MC', 'German'),
-(19, 'Pablo Torre', 0, 32, 'MO', 'Spanish'),
-(20, 'Robert Lewandowski', 0, 9, 'PL', 'Polish'),
-(21, 'Ferran Torres', 0, 7, 'EE', 'Spanish'),
-(22, 'Ansu Fati', 0, 10, 'EE', 'Spanish'),
-(23, 'Raphinha', 0, 11, 'ED', 'Brazilian'),
-(24, 'João Félix', 0, 14, 'SA', 'Portuguese'),
-(25, 'Lamine Yamal', 0, 27, 'ED', 'Spanish'),
-(26, 'Vitor Roque', 0, 29, 'PL', 'Brazilian');
+(1, 'Marc-André ter Stegen', 32, 1, 'GK', 'German'),
+(2, 'Iñaki Peña', 24, 13, 'GK', 'Spanish'),
+(3, 'Ander Astralaga', 19, 26, 'GK', 'Spanish'),
+(4, 'Ronald Araújo', 24, 4, 'DC', 'Uruguayan'),
+(5, 'Jules Koundé', 25, 23, 'DC', 'French'),
+(6, 'Andreas Christensen', 27, 15, 'DC', 'Danish'),
+(7, 'Pau Cubarsí', 18, 33, 'DC', 'Spanish'),
+(8, 'Iñigo Martínez', 32, 5, 'DC', 'Spanish'),
+(9, 'Alejandro Balde', 20, 3, 'LE', 'Spanish'),
+(10, 'Marcos Alonso', 33, 17, 'LE', 'Spanish'),
+(11, 'João Cancelo', 29, 2, 'LD', 'Portuguese'),
+(12, 'Héctor Fort', 18, 39, 'LD', 'Spanish'),
+(13, 'Oriol Romeu', 31, 18, 'MDC', 'Spanish'),
+(14, 'Gavi', 19, 6, 'MC', 'Spanish'),
+(15, 'Pedri', 21, 8, 'MC', 'Spanish'),
+(16, 'Frenkie de Jong', 26, 21, 'MC', 'Dutch'),
+(17, 'Sergi Roberto', 32, 20, 'MC', 'Spanish'),
+(18, 'Ilkay Gündogan', 33, 22, 'MC', 'German'),
+(19, 'Pablo Torre', 20, 32, 'MO', 'Spanish'),
+(20, 'Robert Lewandowski', 35, 9, 'PL', 'Polish'),
+(21, 'Ferran Torres', 24, 7, 'EE', 'Spanish'),
+(22, 'Ansu Fati', 21, 10, 'EE', 'Spanish'),
+(23, 'Raphinha', 27, 11, 'ED', 'Brazilian'),
+(24, 'João Félix', 26, 14, 'SA', 'Portuguese'),
+(25, 'Lamine Yamal', 16, 27, 'ED', 'Spanish'),
+(26, 'Vitor Roque', 18, 29, 'PL', 'Brazilian');
 
 -- --------------------------------------------------------
 
