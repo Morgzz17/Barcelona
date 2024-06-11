@@ -26,3 +26,7 @@ th{
 td{
     background-color: white;
 }
+
+a {
+   text-decoration:none;
+}
