@@ -41,7 +41,7 @@ exit();
             <th colspan="2">Operações</th>
           </tr>
         </thead>
-        <tbody>
+        <tbody class="text-center">
           <?php
             while ($linha = mysqli_fetch_assoc($resultado)) {
               echo "<tr>";
@@ -50,8 +50,8 @@ exit();
               echo "<td>".$linha['Nª']."</td>";
               echo "<td>".$linha['Descrição']."</td>";
               echo "<td>".$linha['Nacionalidade']."</td>";
-              echo "<td><center><img src='imagens/editar.png'></center></td>";
-              echo "<td><center><img src='imagens/eliminar.png' width='25'></center></td>";
+              echo "<td><center><img src='imagens/Editar.png' width='35'></center></td>";
+              echo "<td><center><img src='imagens/Remover.png' width='46'></center></td>";
               echo "</tr>";
               }
           ?>
