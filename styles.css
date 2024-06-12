@@ -1,28 +1,44 @@
 body{
-   background-color: #ADACAC;
-}
-nav{
-    background-image: linear-gradient(to right, #C22121, #001A8B);
-}
-footer{
-    background-image: linear-gradient(to right, #001A8B, #C22121);
-}
-.text-center{
-    color: #EDC101; font-weight: bolder; font-size: 20px;
-}
-.nav-text{
-    color: #EDC101; font-weight: bolder;font-size: 60px; padding-right: 30px;
-}
-a{
-    color: #EDC101;
-}
-th{
-    background-image: linear-gradient(to right, #C22121, #001A8B);
-    color: #EDC101;
-}
-.table{
-    border-color: black;
-}
-td{
-    background-color: white;
-}
+    background-color: #ADACAC;
+ }
+ nav{
+     background-image: linear-gradient(to right, #C22121, #001A8B);
+ }
+ footer{
+     background-image: linear-gradient(to right, #001A8B, #C22121);
+ }
+ .text-center{
+     color: #EDC101; font-weight: bolder; font-size: 20px;
+ }
+ .nav-text{
+     color: #EDC101; font-weight: bolder;font-size: 60px; padding-right: 30px;
+ }
+ a{
+     color: #EDC101;
+     text-decoration: none;
+ }
+ a:hover {
+     color: #EDC101;
+     text-decoration: none;
+ }
+ th{
+     background-image: linear-gradient(to right, #C22121, #001A8B);
+     color: #EDC101;
+ }
+ td{
+     background-color: white;
+ }
+ .container{
+     padding-bottom: 36px;
+ }
+ .inserir{
+     background-image: linear-gradient(to right, #C22121, #001A8B);
+     color: #EDC101; font-weight: bolder; font-size: 20px;
+     border: none;
+     width: 100px;
+     position: right;
+     padding-top: 5px; padding-bottom: 5px;
+ }
+ button{
+     margin-bottom: 20px;
+ }

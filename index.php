@@ -1,12 +1,14 @@
 <?php include 'servidor.php'; ?>
 <?php 
 // Executar a consulta
-$sql = "SELECT E.Nome, E.Idade, E.Nª, P.Descrição, E.Nacionalidade FROM equipa E LEFT JOIN posição P ON E.Posicao=P.Descrição";
+$sql = "SELECT E.Nome, E.Idade, E.Nª, P.Descrição, E.Nacionalidade 
+        FROM equipa E 
+        LEFT JOIN posição P ON E.Posicao = P.Posição";
 $resultado = mysqli_query($ligacao, $sql);
 
 if (mysqli_num_rows($resultado) == 0){
-echo "<br> Cliente não encontrado <br>";
-exit();
+    echo "<br> Cliente não encontrado <br>";
+    exit();
 }
 ?>
 
@@ -28,8 +30,14 @@ exit();
 
   <?php include 'partes/nav.html'; ?>
 
-  <div class="container" >
-    <div  class="row-center mt-5">
+  <div class="container">
+    <div class="row-center mt-5">
+    <div class="col-2 mt-2">
+      <a href="#" class="bottom_inserir">
+        <button class="inserir" type="button">Inserir</button>
+      </a>
+    </div>
+
       <table class="table tabela table-bordered">
         <thead>
           <tr class="titulotabela text-center">
@@ -53,7 +61,7 @@ exit();
               echo "<td><center><img src='imagens/Editar.png' width='35'></center></td>";
               echo "<td><center><img src='imagens/Remover.png' width='46'></center></td>";
               echo "</tr>";
-              }
+            }
           ?>
         </tbody>
       </table>
@@ -64,15 +72,9 @@ exit();
   
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="https://code.jquery.com/jquery-3.7.1.min.js"
-    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
 </body>
-
 </html>
