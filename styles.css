@@ -1,44 +1,156 @@
-body{
+body {
     background-color: #ADACAC;
- }
- nav{
-     background-image: linear-gradient(to right, #C22121, #001A8B);
- }
- footer{
-     background-image: linear-gradient(to right, #001A8B, #C22121);
- }
- .text-center{
-     color: #EDC101; font-weight: bolder; font-size: 20px;
- }
- .nav-text{
-     color: #EDC101; font-weight: bolder;font-size: 60px; padding-right: 30px;
- }
- a{
-     color: #EDC101;
-     text-decoration: none;
- }
- a:hover {
-     color: #EDC101;
-     text-decoration: none;
- }
- th{
-     background-image: linear-gradient(to right, #C22121, #001A8B);
-     color: #EDC101;
- }
- td{
-     background-color: white;
- }
- .container{
-     padding-bottom: 36px;
- }
- .inserir{
-     background-image: linear-gradient(to right, #C22121, #001A8B);
-     color: #EDC101; font-weight: bolder; font-size: 20px;
-     border: none;
-     width: 100px;
-     position: right;
-     padding-top: 5px; padding-bottom: 5px;
- }
- button{
-     margin-bottom: 20px;
- }
+}
+
+nav {
+    background-image: linear-gradient(to right, #C22121, #001A8B);
+    padding: 10px;
+}
+
+footer {
+    background-image: linear-gradient(to right, #001A8B, #C22121);
+    padding: 10px;
+    color: #EDC101;
+    text-align: center;
+}
+
+.text-center {
+    color: #EDC101; 
+    font-weight: bolder; 
+    font-size: 20px;
+}
+
+.nav-text {
+    color: #EDC101; 
+    font-weight: bolder; 
+    font-size: 60px; 
+    padding-right: 30px;
+}
+
+a {
+    color: #EDC101;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #EDC101;
+    text-decoration: none;
+}
+
+th {
+    background-image: linear-gradient(to right, #C22121, #001A8B);
+    color: #EDC101;
+}
+
+td {
+    background-color: white;
+}
+
+.container {
+    padding-bottom: 36px;
+}
+
+.inserir {
+    background-image: linear-gradient(to right, #C22121, #001A8B);
+    color: #EDC101; 
+    font-weight: bolder; 
+    font-size: 20px;
+    border: none;
+    width: 100px;
+    padding-top: 5px; 
+    padding-bottom: 5px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #808080; /* Background grey as per your image */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    color: #EDC101;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    /* Gradiente */
+    background-image: linear-gradient(to right, #C22121, #001A8B);
+}
+form input[type="text"],
+form input[type="number"] {
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 5px;
+    background-color: #fff;
+    color: #000;
+}
+
+form .btn-primary {
+    background-color: #001A8B;
+    color: #EDC101;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+form .btn-secondary {
+    background-color: #001A8B;
+    color: #EDC101;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #001A8B;
+    color: #EDC101;
+}
+
+
+.btn-remove {
+    background-color: #C22121;
+    color: #EDC101;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.btn-remove:hover {
+    background-color: #C22121;
+    color: #EDC101;
+}
+.btn-voltar {
+    background-image: linear-gradient(to right, #C22121, #001A8B);
+    color: #EDC101;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.btn-voltar:hover {
+    background-image: linear-gradient(to right, #C22121, #001A8B);
+    color: #EDC101;
+}
